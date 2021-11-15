@@ -76,7 +76,7 @@ input{
 .text{
     border-right: 1px solid;
     line-height: 30px;
-    width: 100px;
+    width: 9rem;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -98,6 +98,31 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    width: 80%;
+
+}
+
+@media screen and (max-width: 900px){
+    .field{
+        width: 50%;
+    }
+
+    .text{
+        width: 40%;
+    }
+
+    input{
+        width: 50px;
+        margin-right: 1rem;
+        /* display: flex; */
+        text-align: center;
+    }
+
+    h1,
+    p,
+    #output{
+        width: 60%;
+        text-align: center;
+    }
 }
 
