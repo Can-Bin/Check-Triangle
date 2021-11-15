@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+.container{
+    border: 1px solid azure;
+    box-shadow: 5px 5px 20px azure;
+    width: 50%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    border-radius: 50%;
+}
+
+.field{
+    margin-top: 2rem;
+    border: 1px solid wheat;
+    box-shadow: 5px 5px 15px white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:darkseagreen;
+    transition: ease-in-out .3s;
+}
+
+.field:hover{
+    outline: 3px solid azure;
+    outline-offset: 3px;
+}
+
+input{
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    background-color: transparent;
+    color:azure;
+    font-size: 1.2rem;
+}
+
+.btnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.checkBtn{
+    padding: 0.5rem 1rem;
+    border: 2px solid azure;
+    background-color:cornflowerblue;
+    color: azure;
+    transition: all .4s ease-in-out;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.checkBtn:hover{
+    background-color: tomato;
+}
+
+.checkBtn:active{
+    outline: 3px solid azure;
+    outline-offset: 3px;
+
+}
+
+.text{
+    border-right: 1px solid;
+    line-height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: azure;  
+}
+
+h1{
+    margin: 2rem auto;
+    color: azure;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.outputDiv{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
