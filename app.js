@@ -11,7 +11,7 @@ button.addEventListener("click", () => {
     if(l1 > 0 && l2 > 0 && l3 > 0){
         if((l1 + l2 > l3) && (l1 + l3 > l2) && (l2 + l3 > l1)){
             if (l1==l2 && l2==l3 && l1==l3){
-                output.innerHTML = "This is an quilateral triangle "
+                output.innerHTML = "This is an equilateral triangle"
             }
             else if (l1==l2 || l2==l3 || l1==l3){
                 output.innerHTML = "This is an isosceles triangle"
